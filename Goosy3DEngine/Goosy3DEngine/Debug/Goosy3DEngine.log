@@ -1,0 +1,43 @@
+﻿Build started 17-12-2013 19:06:41.
+     1>Project "C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Goosy3DEngine\Goosy3DEngine.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Goosy3DEngine.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Goosy3DEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt D3DClass.cpp GraphicsClass.cpp InputClass.cpp main.cpp SystemClass.cpp
+         SystemClass.cpp
+         main.cpp
+         InputClass.cpp
+         GraphicsClass.cpp
+         D3DClass.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Goosy3DEngine.exe.embed.manifest.res" Debug\Goosy3DEngine_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Goosy3DEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.lib" /MACHINE:X86 Debug\Goosy3DEngine.exe.embed.manifest.res
+         Debug\D3DClass.obj
+         Debug\GraphicsClass.obj
+         Debug\InputClass.obj
+         Debug\main.obj
+         Debug\SystemClass.obj
+       Manifest:
+         Deleting file "Debug\Goosy3DEngine.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Goosy3DEngine.exe.embed.manifest" /manifest Debug\Goosy3DEngine.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Goosy3DEngine.exe.embed.manifest.res" Debug\Goosy3DEngine_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Goosy3DEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.lib" /MACHINE:X86 Debug\Goosy3DEngine.exe.embed.manifest.res
+         Debug\D3DClass.obj
+         Debug\GraphicsClass.obj
+         Debug\InputClass.obj
+         Debug\main.obj
+         Debug\SystemClass.obj
+         Goosy3DEngine.vcxproj -> C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Debug\Goosy3DEngine.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Goosy3DEngine.unsuccessfulbuild".
+         Touching "Debug\Goosy3DEngine.lastbuildstate".
+     1>Done Building Project "C:\Users\Stijn\Documents\Visual Studio 2010\Projects\Goosy3DEngine\Goosy3DEngine\Goosy3DEngine.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.60

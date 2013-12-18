@@ -137,7 +137,7 @@ bool GraphicsClass::Frame()
 
 bool GraphicsClass::Render()
 {
-	D3DXMATRIX viewMatrix, projectionMatrix, worldMatrix;
+	D3DXMATRIX worldMatrix, viewMatrix, projectionMatrix;
 	bool result;
 
 

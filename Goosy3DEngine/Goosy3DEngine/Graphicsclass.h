@@ -10,6 +10,10 @@
 //////////////
 #include <windows.h>
 #include "D3Dclass.h"
+#include "Cameraclass.h"
+#include "Modelclass.h"
+#include "Colorshaderclass.h"
+#include <d3dx10math.h>
 
 /////////////
 // GLOBALS //
@@ -37,6 +41,9 @@ private:
 
 private:
 	D3DClass* m_D3D;
+	CameraClass* m_Camera;
+	ModelClass* m_Model;
+	ColorShaderClass* m_ColorShader;
 };
 
 #endif
